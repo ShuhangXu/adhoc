@@ -9,6 +9,7 @@ setup.py
 ../../build/adhoc/adhoc.egg-info/top_level.txt
 ../../build/adhoc/adhoc.egg-info/zip-safe
 adhoc/__init__.py
+adhoc/video_publisher.py
 adhoc/video_subscriber.py
 resource/adhoc
 test/test_copyright.py

@@ -1,6 +1,8 @@
 /home/greatshuhang/ros2_ws/install/adhoc/lib/python3.10/site-packages/adhoc/video_subscriber.py
+/home/greatshuhang/ros2_ws/install/adhoc/lib/python3.10/site-packages/adhoc/video_publisher.py
 /home/greatshuhang/ros2_ws/install/adhoc/lib/python3.10/site-packages/adhoc/__init__.py
 /home/greatshuhang/ros2_ws/install/adhoc/lib/python3.10/site-packages/adhoc/__pycache__/video_subscriber.cpython-310.pyc
+/home/greatshuhang/ros2_ws/install/adhoc/lib/python3.10/site-packages/adhoc/__pycache__/video_publisher.cpython-310.pyc
 /home/greatshuhang/ros2_ws/install/adhoc/lib/python3.10/site-packages/adhoc/__pycache__/__init__.cpython-310.pyc
 /home/greatshuhang/ros2_ws/install/adhoc/share/ament_index/resource_index/packages/adhoc
 /home/greatshuhang/ros2_ws/install/adhoc/share/adhoc/package.xml

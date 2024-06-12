@@ -132,19 +132,24 @@ class RealSenseSubscriber(Node):
 
                         # Ensure frame timestamps are consistent, fill gaps with the previous frame if needed
                         for camera in ['publisher1_camera1', 'publisher1_camera2']:
+                            # print("--------------------------------------------------------")
+                            # print(self.timestamps[camera])
+                            # print(last_timestamps[camera])
+                            # print()
                             if self.timestamps[camera] - last_timestamps[camera] > self.interval:
                                 self.frames[camera] = self.frames[camera]
+                                print("Package lost")
                             last_timestamps[camera] = self.timestamps[camera]
 
                         # Get the latest gaze frame that matches the current timestamp range
                         if self.gaze_timestamps:
-                            print(f"Gaze timestamps before update: {self.gaze_timestamps}")
+                            # print(f"Gaze timestamps before update: {self.gaze_timestamps}")
                             while self.gaze_timestamps and self.gaze_timestamps[0] <= self.last_save_time + self.interval:
                                 if self.gaze_frames:
                                     frame_tuple = self.gaze_frames.pop(0)
                                     synced_gaze_frame, last_gaze_timestamp = frame_tuple
-                                    print(f"Updating Gaze Frame - Type: {type(synced_gaze_frame)}, Shape: {synced_gaze_frame.shape}, Timestamp: {last_gaze_timestamp}")
-                                    print(f"Gaze timestamps after update: {self.gaze_timestamps}")
+                                    # print(f"Updating Gaze Frame - Type: {type(synced_gaze_frame)}, Shape: {synced_gaze_frame.shape}, Timestamp: {last_gaze_timestamp}")
+                                    # print(f"Gaze timestamps after update: {self.gaze_timestamps}")
                                 else:
                                     print("No gaze frames available for synchronization")
                                     break
@@ -189,12 +194,12 @@ class RealSenseSubscriber(Node):
                                     self.audio_file.writeframes(audio_data)
                                 self.audio_frames = [(ad, ts) for ad, ts in self.audio_frames if ts > self.last_save_time + self.interval]
                             print("Synchronized and saved audio")
-                    else:
-                        print(f"Waiting for next interval: {current_time - self.last_save_time} seconds since last save")
-                else:
-                    print("Waiting for frames from both cameras")
+                #     else:
+                #         print(f"Waiting for next interval: {current_time - self.last_save_time} seconds since last save")
+                # else:
+                #     print("Waiting for frames from both cameras")
 
-            time.sleep(self.interval / 10)  # Add a small sleep to avoid busy waiting
+            # time.sleep(self.interval / 10)  # Add a small sleep to avoid busy waiting
 
 
             

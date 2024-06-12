@@ -32,7 +32,7 @@ pip install sounddevice
 pip install pupil-labs-realtime-api
 pip install wave
 pip install csv
-'''
+```
 
 ## Installing `cv_bridge`
 

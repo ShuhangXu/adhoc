@@ -1,0 +1,30 @@
+[0.516s] Invoking command in '/home/greatshuhang/ros2_ws/src/adhoc': PYTHONPATH=/home/greatshuhang/ros2_ws/build/adhoc/prefix_override:/home/greatshuhang/ros2_ws/install/adhoc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/adhoc build --build-base /home/greatshuhang/ros2_ws/build/adhoc/build install --record /home/greatshuhang/ros2_ws/build/adhoc/install.log --single-version-externally-managed install_data
+[0.657s] running egg_info
+[0.657s] writing ../../build/adhoc/adhoc.egg-info/PKG-INFO
+[0.657s] writing dependency_links to ../../build/adhoc/adhoc.egg-info/dependency_links.txt
+[0.657s] writing entry points to ../../build/adhoc/adhoc.egg-info/entry_points.txt
+[0.657s] writing requirements to ../../build/adhoc/adhoc.egg-info/requires.txt
+[0.657s] writing top-level names to ../../build/adhoc/adhoc.egg-info/top_level.txt
+[0.658s] reading manifest file '../../build/adhoc/adhoc.egg-info/SOURCES.txt'
+[0.658s] writing manifest file '../../build/adhoc/adhoc.egg-info/SOURCES.txt'
+[0.658s] running build
+[0.658s] running build_py
+[0.658s] copying adhoc/video_subscriber.py -> /home/greatshuhang/ros2_ws/build/adhoc/build/lib/adhoc
+[0.659s] running install
+[0.659s] running install_lib
+[0.659s] copying /home/greatshuhang/ros2_ws/build/adhoc/build/lib/adhoc/video_subscriber.py -> /home/greatshuhang/ros2_ws/install/adhoc/lib/python3.10/site-packages/adhoc
+[0.659s] byte-compiling /home/greatshuhang/ros2_ws/install/adhoc/lib/python3.10/site-packages/adhoc/video_subscriber.py to video_subscriber.cpython-310.pyc
+[0.661s] running install_data
+[0.661s]   File "/home/greatshuhang/ros2_ws/install/adhoc/lib/python3.10/site-packages/adhoc/video_subscriber.py", line 158
+[0.661s]     self.audio_frames = [(ad, ts) for ad, ts in self.audio audio_frames if ts > self.last_save_time + self.interval]
+[0.661s]                                                            ^^^^^^^^^^^^
+[0.661s] SyntaxError: invalid syntax
+[0.661s] 
+[0.661s] running install_egg_info
+[0.662s] removing '/home/greatshuhang/ros2_ws/install/adhoc/lib/python3.10/site-packages/adhoc-0.0.0-py3.10.egg-info' (and everything under it)
+[0.662s] Copying ../../build/adhoc/adhoc.egg-info to /home/greatshuhang/ros2_ws/install/adhoc/lib/python3.10/site-packages/adhoc-0.0.0-py3.10.egg-info
+[0.662s] running install_scripts
+[0.675s] Installing video_publisher script to /home/greatshuhang/ros2_ws/install/adhoc/lib/adhoc
+[0.675s] Installing video_subscriber script to /home/greatshuhang/ros2_ws/install/adhoc/lib/adhoc
+[0.675s] writing list of installed files to '/home/greatshuhang/ros2_ws/build/adhoc/install.log'
+[0.694s] Invoked command in '/home/greatshuhang/ros2_ws/src/adhoc' returned '0': PYTHONPATH=/home/greatshuhang/ros2_ws/build/adhoc/prefix_override:/home/greatshuhang/ros2_ws/install/adhoc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/adhoc build --build-base /home/greatshuhang/ros2_ws/build/adhoc/build install --record /home/greatshuhang/ros2_ws/build/adhoc/install.log --single-version-externally-managed install_data

@@ -1,0 +1,5 @@
+  File "/home/greatshuhang/ros2_ws/install/adhoc/lib/python3.10/site-packages/adhoc/video_subscriber.py", line 25
+    self.interval = 1 / self.frame rate
+                                   ^^^^
+SyntaxError: invalid syntax
+

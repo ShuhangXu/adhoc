@@ -1,0 +1,5 @@
+  File "/home/greatshuhang/ros2_ws/install/adhoc/lib/python3.10/site-packages/adhoc/video_subscriber.py", line 110
+    //print(f"Received Gaze Frame - Timestamp: {timestamp}, Shape: {frame.shape}")  # Debugging line
+    ^^
+SyntaxError: invalid syntax
+

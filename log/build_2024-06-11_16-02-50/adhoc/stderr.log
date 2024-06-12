@@ -1,0 +1,5 @@
+  File "/home/greatshuhang/ros2_ws/install/adhoc/lib/python3.10/site-packages/adhoc/video_subscriber.py", line 73
+    self.gaze_video_thread = threading.Thread(target(self.receive_gaze_video)
+                                             ^
+SyntaxError: '(' was never closed
+

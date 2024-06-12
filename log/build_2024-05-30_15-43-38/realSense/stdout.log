@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/realSense/realSense.egg-info
+writing ../../build/realSense/realSense.egg-info/PKG-INFO
+writing dependency_links to ../../build/realSense/realSense.egg-info/dependency_links.txt
+writing entry points to ../../build/realSense/realSense.egg-info/entry_points.txt
+writing requirements to ../../build/realSense/realSense.egg-info/requires.txt
+writing top-level names to ../../build/realSense/realSense.egg-info/top_level.txt
+writing manifest file '../../build/realSense/realSense.egg-info/SOURCES.txt'
+reading manifest file '../../build/realSense/realSense.egg-info/SOURCES.txt'
+writing manifest file '../../build/realSense/realSense.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/greatshuhang/ros2_ws/build/realSense/build
+creating /home/greatshuhang/ros2_ws/build/realSense/build/lib
+creating /home/greatshuhang/ros2_ws/build/realSense/build/lib/realSense
+copying realSense/record_control_subscriber.py -> /home/greatshuhang/ros2_ws/build/realSense/build/lib/realSense
+copying realSense/__init__.py -> /home/greatshuhang/ros2_ws/build/realSense/build/lib/realSense
+copying realSense/record_control_publisher.py -> /home/greatshuhang/ros2_ws/build/realSense/build/lib/realSense
+running install
+running install_lib
+creating /home/greatshuhang/ros2_ws/install/realSense/lib/python3.10/site-packages/realSense
+copying /home/greatshuhang/ros2_ws/build/realSense/build/lib/realSense/record_control_subscriber.py -> /home/greatshuhang/ros2_ws/install/realSense/lib/python3.10/site-packages/realSense
+copying /home/greatshuhang/ros2_ws/build/realSense/build/lib/realSense/__init__.py -> /home/greatshuhang/ros2_ws/install/realSense/lib/python3.10/site-packages/realSense
+copying /home/greatshuhang/ros2_ws/build/realSense/build/lib/realSense/record_control_publisher.py -> /home/greatshuhang/ros2_ws/install/realSense/lib/python3.10/site-packages/realSense
+byte-compiling /home/greatshuhang/ros2_ws/install/realSense/lib/python3.10/site-packages/realSense/record_control_subscriber.py to record_control_subscriber.cpython-310.pyc
+byte-compiling /home/greatshuhang/ros2_ws/install/realSense/lib/python3.10/site-packages/realSense/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/greatshuhang/ros2_ws/install/realSense/lib/python3.10/site-packages/realSense/record_control_publisher.py to record_control_publisher.cpython-310.pyc
+running install_data
+creating /home/greatshuhang/ros2_ws/install/realSense/share/ament_index
+creating /home/greatshuhang/ros2_ws/install/realSense/share/ament_index/resource_index
+creating /home/greatshuhang/ros2_ws/install/realSense/share/ament_index/resource_index/packages
+copying resource/realSense -> /home/greatshuhang/ros2_ws/install/realSense/share/ament_index/resource_index/packages
+copying package.xml -> /home/greatshuhang/ros2_ws/install/realSense/share/realSense
+running install_egg_info
+Copying ../../build/realSense/realSense.egg-info to /home/greatshuhang/ros2_ws/install/realSense/lib/python3.10/site-packages/realSense-0.0.0-py3.10.egg-info
+running install_scripts
+Installing record_control_publisher script to /home/greatshuhang/ros2_ws/install/realSense/lib/realSense
+Installing record_control_subscriber script to /home/greatshuhang/ros2_ws/install/realSense/lib/realSense
+writing list of installed files to '/home/greatshuhang/ros2_ws/build/realSense/install.log'

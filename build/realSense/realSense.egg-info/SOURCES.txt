@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/realSense/realSense.egg-info/PKG-INFO
+../../build/realSense/realSense.egg-info/SOURCES.txt
+../../build/realSense/realSense.egg-info/dependency_links.txt
+../../build/realSense/realSense.egg-info/entry_points.txt
+../../build/realSense/realSense.egg-info/requires.txt
+../../build/realSense/realSense.egg-info/top_level.txt
+../../build/realSense/realSense.egg-info/zip-safe
+realSense/__init__.py
+realSense/record_control_publisher.py
+realSense/record_control_subscriber.py
+resource/realSense
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

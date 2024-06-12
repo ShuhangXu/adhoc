@@ -1,0 +1,5 @@
+  File "/home/greatshuhang/ros2_ws/install/adhoc/lib/python3.10/site-packages/adhoc/video_subscriber.py", line 71
+    }
+    ^
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '(' on line 70
+

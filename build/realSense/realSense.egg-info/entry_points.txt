@@ -1,0 +1,4 @@
+[console_scripts]
+record_control_publisher = realSense.record_control_publisher:main
+record_control_subscriber = realSense.record_control_subscriber:main
+

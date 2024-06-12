@@ -1,0 +1,5 @@
+  File "/home/greatshuhang/ros2_ws/install/adhoc/lib/python3.10/site-packages/adhoc/video_subscriber.py", line 31
+    'publisher1_camera2': cv2.VideoWriter('data/output_publisher1_camera2.avi', cvation.ANY_VALUE to cv2.VideoCapture(*'CODEC_ID'), self.frame_rate, (1920, 1080)),
+                                                                                ^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+

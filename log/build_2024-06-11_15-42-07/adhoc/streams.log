@@ -1,0 +1,30 @@
+[0.519s] Invoking command in '/home/greatshuhang/ros2_ws/src/adhoc': PYTHONPATH=/home/greatshuhang/ros2_ws/build/adhoc/prefix_override:/home/greatshuhang/ros2_ws/install/adhoc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/adhoc build --build-base /home/greatshuhang/ros2_ws/build/adhoc/build install --record /home/greatshuhang/ros2_ws/build/adhoc/install.log --single-version-externally-managed install_data
+[0.668s] running egg_info
+[0.668s] writing ../../build/adhoc/adhoc.egg-info/PKG-INFO
+[0.668s] writing dependency_links to ../../build/adhoc/adhoc.egg-info/dependency_links.txt
+[0.669s] writing entry points to ../../build/adhoc/adhoc.egg-info/entry_points.txt
+[0.669s] writing requirements to ../../build/adhoc/adhoc.egg-info/requires.txt
+[0.669s] writing top-level names to ../../build/adhoc/adhoc.egg-info/top_level.txt
+[0.669s] reading manifest file '../../build/adhoc/adhoc.egg-info/SOURCES.txt'
+[0.670s] writing manifest file '../../build/adhoc/adhoc.egg-info/SOURCES.txt'
+[0.670s] running build
+[0.670s] running build_py
+[0.670s] copying adhoc/video_subscriber.py -> /home/greatshuhang/ros2_ws/build/adhoc/build/lib/adhoc
+[0.670s] running install
+[0.670s] running install_lib
+[0.671s] copying /home/greatshuhang/ros2_ws/build/adhoc/build/lib/adhoc/video_subscriber.py -> /home/greatshuhang/ros2_ws/install/adhoc/lib/python3.10/site-packages/adhoc
+[0.671s] byte-compiling /home/greatshuhang/ros2_ws/install/adhoc/lib/python3.10/site-packages/adhoc/video_subscriber.py to video_subscriber.cpython-310.pyc
+[0.671s]   File "/home/greatshuhang/ros2_ws/install/adhoc/lib/python3.10/site-packages/adhoc/video_subscriber.py", line 31
+[0.671s]     'publisher1_camera2': cv2.VideoWriter('data/output_publisher1_camera2.avi', cvation.ANY_VALUE to cv2.VideoCapture(*'CODEC_ID'), self.frame_rate, (1920, 1080)),
+[0.671s]                                                                                 ^^^^^^^^^^^^^^^^^^^^
+[0.672s] SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[0.672s] 
+[0.672s] running install_data
+[0.672s] running install_egg_info
+[0.672s] removing '/home/greatshuhang/ros2_ws/install/adhoc/lib/python3.10/site-packages/adhoc-0.0.0-py3.10.egg-info' (and everything under it)
+[0.673s] Copying ../../build/adhoc/adhoc.egg-info to /home/greatshuhang/ros2_ws/install/adhoc/lib/python3.10/site-packages/adhoc-0.0.0-py3.10.egg-info
+[0.673s] running install_scripts
+[0.686s] Installing video_publisher script to /home/greatshuhang/ros2_ws/install/adhoc/lib/adhoc
+[0.686s] Installing video_subscriber script to /home/greatshuhang/ros2_ws/install/adhoc/lib/adhoc
+[0.686s] writing list of installed files to '/home/greatshuhang/ros2_ws/build/adhoc/install.log'
+[0.705s] Invoked command in '/home/greatshuhang/ros2_ws/src/adhoc' returned '0': PYTHONPATH=/home/greatshuhang/ros2_ws/build/adhoc/prefix_override:/home/greatshuhang/ros2_ws/install/adhoc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/adhoc build --build-base /home/greatshuhang/ros2_ws/build/adhoc/build install --record /home/greatshuhang/ros2_ws/build/adhoc/install.log --single-version-externally-managed install_data

@@ -1,0 +1,6 @@
+source;share/realSense/hook/pythonpath.ps1
+source;share/realSense/hook/pythonpath.dsv
+source;share/realSense/hook/pythonpath.sh
+source;share/realSense/hook/ament_prefix_path.ps1
+source;share/realSense/hook/ament_prefix_path.dsv
+source;share/realSense/hook/ament_prefix_path.sh

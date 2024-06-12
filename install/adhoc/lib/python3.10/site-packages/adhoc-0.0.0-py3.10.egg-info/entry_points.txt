@@ -1,0 +1,4 @@
+[console_scripts]
+video_publisher = adhoc.video_publisher:main
+video_subscriber = adhoc.video_subscriber:main
+

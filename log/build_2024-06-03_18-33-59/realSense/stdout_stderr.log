@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/realSense/realSense.egg-info/PKG-INFO
+writing dependency_links to ../../build/realSense/realSense.egg-info/dependency_links.txt
+writing entry points to ../../build/realSense/realSense.egg-info/entry_points.txt
+writing requirements to ../../build/realSense/realSense.egg-info/requires.txt
+writing top-level names to ../../build/realSense/realSense.egg-info/top_level.txt
+reading manifest file '../../build/realSense/realSense.egg-info/SOURCES.txt'
+writing manifest file '../../build/realSense/realSense.egg-info/SOURCES.txt'
+running build
+running build_py
+copying realSense/record_control_publisher.py -> /home/greatshuhang/ros2_ws/build/realSense/build/lib/realSense
+running install
+running install_lib
+copying /home/greatshuhang/ros2_ws/build/realSense/build/lib/realSense/record_control_publisher.py -> /home/greatshuhang/ros2_ws/install/realSense/lib/python3.10/site-packages/realSense
+byte-compiling /home/greatshuhang/ros2_ws/install/realSense/lib/python3.10/site-packages/realSense/record_control_publisher.py to record_control_publisher.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/greatshuhang/ros2_ws/install/realSense/lib/python3.10/site-packages/realSense-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/realSense/realSense.egg-info to /home/greatshuhang/ros2_ws/install/realSense/lib/python3.10/site-packages/realSense-0.0.0-py3.10.egg-info
+running install_scripts
+Installing record_control_publisher script to /home/greatshuhang/ros2_ws/install/realSense/lib/realSense
+Installing record_control_subscriber script to /home/greatshuhang/ros2_ws/install/realSense/lib/realSense
+writing list of installed files to '/home/greatshuhang/ros2_ws/build/realSense/install.log'

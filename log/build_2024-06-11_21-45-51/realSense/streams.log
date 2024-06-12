@@ -1,0 +1,22 @@
+[0.587s] Invoking command in '/home/greatshuhang/ros2_ws/src/realSense': PYTHONPATH=/home/greatshuhang/ros2_ws/build/realSense/prefix_override:/home/greatshuhang/ros2_ws/install/realSense/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/realSense build --build-base /home/greatshuhang/ros2_ws/build/realSense/build install --record /home/greatshuhang/ros2_ws/build/realSense/install.log --single-version-externally-managed install_data
+[0.732s] running egg_info
+[0.733s] writing ../../build/realSense/realSense.egg-info/PKG-INFO
+[0.733s] writing dependency_links to ../../build/realSense/realSense.egg-info/dependency_links.txt
+[0.733s] writing entry points to ../../build/realSense/realSense.egg-info/entry_points.txt
+[0.733s] writing requirements to ../../build/realSense/realSense.egg-info/requires.txt
+[0.733s] writing top-level names to ../../build/realSense/realSense.egg-info/top_level.txt
+[0.734s] reading manifest file '../../build/realSense/realSense.egg-info/SOURCES.txt'
+[0.742s] writing manifest file '../../build/realSense/realSense.egg-info/SOURCES.txt'
+[0.742s] running build
+[0.742s] running build_py
+[0.742s] running install
+[0.743s] running install_lib
+[0.743s] running install_data
+[0.743s] running install_egg_info
+[0.744s] removing '/home/greatshuhang/ros2_ws/install/realSense/lib/python3.10/site-packages/realSense-0.0.0-py3.10.egg-info' (and everything under it)
+[0.744s] Copying ../../build/realSense/realSense.egg-info to /home/greatshuhang/ros2_ws/install/realSense/lib/python3.10/site-packages/realSense-0.0.0-py3.10.egg-info
+[0.744s] running install_scripts
+[0.756s] Installing record_control_publisher script to /home/greatshuhang/ros2_ws/install/realSense/lib/realSense
+[0.756s] Installing record_control_subscriber script to /home/greatshuhang/ros2_ws/install/realSense/lib/realSense
+[0.756s] writing list of installed files to '/home/greatshuhang/ros2_ws/build/realSense/install.log'
+[0.770s] Invoked command in '/home/greatshuhang/ros2_ws/src/realSense' returned '0': PYTHONPATH=/home/greatshuhang/ros2_ws/build/realSense/prefix_override:/home/greatshuhang/ros2_ws/install/realSense/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/realSense build --build-base /home/greatshuhang/ros2_ws/build/realSense/build install --record /home/greatshuhang/ros2_ws/build/realSense/install.log --single-version-externally-managed install_data
